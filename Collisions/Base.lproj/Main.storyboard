@@ -18,13 +18,31 @@
                             <arscnView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="RBT-Zw-6sA">
                                 <rect key="frame" x="0.0" y="44" width="414" height="818"/>
                             </arscnView>
+                            <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9uL-js-KJw">
+                                <rect key="frame" x="195" y="436" width="24" height="24"/>
+                                <state key="normal" image="add"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LCF-6U-rW0">
+                                <rect key="frame" x="152" y="791" width="110" height="41"/>
+                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="24"/>
+                                <state key="normal" title="add target">
+                                    <color key="titleColor" systemColor="systemTealColor" red="0.35294117650000001" green="0.7843137255" blue="0.98039215690000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="addTargets:" destination="BYZ-38-t0r" eventType="touchUpInside" id="xzX-54-GdL"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
+                            <constraint firstItem="9uL-js-KJw" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="1Xm-nx-ecb"/>
                             <constraint firstItem="RBT-Zw-6sA" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="IDQ-vV-7t1"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="RBT-Zw-6sA" secondAttribute="bottom" id="J4l-br-dC5"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="RBT-Zw-6sA" secondAttribute="trailing" id="KB1-fz-pao"/>
+                            <constraint firstItem="9uL-js-KJw" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="TYz-Lz-Xcc"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="LCF-6U-rW0" secondAttribute="bottom" constant="30" id="n7J-wf-NZA"/>
                             <constraint firstItem="RBT-Zw-6sA" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="tyn-rW-hhZ"/>
+                            <constraint firstItem="LCF-6U-rW0" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="uQP-gE-pyw"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
@@ -37,4 +55,7 @@
             <point key="canvasLocation" x="139" y="127"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="add" width="24" height="24"/>
+    </resources>
 </document>
