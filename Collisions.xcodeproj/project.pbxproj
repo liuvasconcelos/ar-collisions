@@ -11,11 +11,11 @@
 		53261A0F23C3CF1F00943251 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53261A0E23C3CF1F00943251 /* SceneDelegate.swift */; };
 		53261A1123C3CF1F00943251 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53261A1023C3CF1F00943251 /* ViewController.swift */; };
 		53261A1423C3CF1F00943251 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 53261A1223C3CF1F00943251 /* Main.storyboard */; };
-		53261A1623C3CF2100943251 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 53261A1523C3CF2100943251 /* Assets.xcassets */; };
 		53261A1923C3CF2100943251 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 53261A1723C3CF2100943251 /* LaunchScreen.storyboard */; };
 		53261A2423C3CF2100943251 /* CollisionsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53261A2323C3CF2100943251 /* CollisionsTests.swift */; };
 		53261A2F23C3CF2100943251 /* CollisionsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53261A2E23C3CF2100943251 /* CollisionsUITests.swift */; };
 		53261A3F23C3D12900943251 /* Egg.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 53261A3E23C3D12900943251 /* Egg.scnassets */; };
+		53261A4523C3EC7B00943251 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 53261A4323C3EC7B00943251 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,7 +41,6 @@
 		53261A0E23C3CF1F00943251 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		53261A1023C3CF1F00943251 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		53261A1323C3CF1F00943251 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		53261A1523C3CF2100943251 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		53261A1823C3CF2100943251 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		53261A1A23C3CF2100943251 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		53261A1F23C3CF2100943251 /* CollisionsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CollisionsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -51,6 +50,7 @@
 		53261A2E23C3CF2100943251 /* CollisionsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollisionsUITests.swift; sourceTree = "<group>"; };
 		53261A3023C3CF2100943251 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		53261A3E23C3D12900943251 /* Egg.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = Egg.scnassets; sourceTree = "<group>"; };
+		53261A4323C3EC7B00943251 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,10 +105,10 @@
 				53261A0E23C3CF1F00943251 /* SceneDelegate.swift */,
 				53261A1023C3CF1F00943251 /* ViewController.swift */,
 				53261A1223C3CF1F00943251 /* Main.storyboard */,
-				53261A1523C3CF2100943251 /* Assets.xcassets */,
 				53261A1723C3CF2100943251 /* LaunchScreen.storyboard */,
 				53261A1A23C3CF2100943251 /* Info.plist */,
 				53261A3E23C3D12900943251 /* Egg.scnassets */,
+				53261A4323C3EC7B00943251 /* Assets.xcassets */,
 			);
 			path = Collisions;
 			sourceTree = "<group>";
@@ -237,8 +237,8 @@
 			files = (
 				53261A3F23C3D12900943251 /* Egg.scnassets in Resources */,
 				53261A1923C3CF2100943251 /* LaunchScreen.storyboard in Resources */,
-				53261A1623C3CF2100943251 /* Assets.xcassets in Resources */,
 				53261A1423C3CF1F00943251 /* Main.storyboard in Resources */,
+				53261A4523C3EC7B00943251 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
